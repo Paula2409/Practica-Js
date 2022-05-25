@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 8</title>
+</head>
+<body>
+    <h3>Escribe un programa que pida una frase y escriba cuantas veces aparece la letra a</h3>
+    <script>
+        var phrase = String(prompt("Escriba una frase: "))  
+        count = 0
+        for(letter = 0; letter<phrase.length; letter++){
+            if (phrase[letter] === "a"){
+                count = count + 1
+            }
+        }
+        document.write("La cantidad de veces que aparece a es: ", count)
+
+
+    </script>
+</body>
+</html>

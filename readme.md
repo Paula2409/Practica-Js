@@ -9,8 +9,7 @@ Actividad Práctica Adicional - JavaScript Unidad 1
 6. Escribe un programa que pida dos números y escriba en la pantalla cual es el mayor.
 7. Escribe un programa que pida 3 números y escriba en la pantalla el mayor de los tres.
 8. Escribe un programa que pida un número y diga si es divisible por 2
-9. Escribe un programa que pida una frase y escriba cuantas veces aparece la
-letra a
+9. Escribe un programa que pida una frase y escriba cuantas veces aparece la letra a
 10. Escribe un programa que pida una frase y escriba las vocales que aparecen
 11. Escribe un programa que pida una frase y escriba cuántas de las letras que
 tiene son vocales
