@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 11</title>
+</head>
+<body>
+    <h3>Escribe un programa que pida una frase y escriba cuántas de las letras que tiene son vocales</h3>
+    <script>
+        //En proceso 
+        var phrase = prompt("Escriba una frase: ")
+        for(letter = 0; letter<phrase.length; letter++){
+            if (phrase[letter] === "a"){
+                count_a = count_a + 1;
+                document.write(phrase);
+            }    
+            if (phrase[letter] === "e"){
+                count_e = count_e + 1;
+            }
+            if (phrase[letter] === "i"){
+                count_i = count_i + 1;
+            }
+            if (phrase[letter] === "o"){
+                count_o = count_o + 1;
+            }
+            if (phrase[letter] === "u"){
+                count_u = count_u + 1;
+            }
+            else {
+                document.write("No aparece ninguna vocal");
+            }
+
+        }
+        var count = count_a + count_e + count_i + count_o + count_u
+        document.write("Las vocales aparecen " + count + "veces")
+
+    </script>
+</body>
+</html>

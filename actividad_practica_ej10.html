@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 10</title>
+</head>
+<body>
+    <h3>Escribe un programa que pida una frase y escriba las vocales que aparecen</h3>
+    <script>
+        var phrase = prompt("Escriba una frase: ")
+        for(letter in phrase){
+            if (phrase[letter] === "a"){
+                document.write("Aparece la vocal a")
+                document.write("<br>")
+            }
+            if (phrase[letter] === "e"){
+                document.write("Aparece la vocal e")
+                document.write("<br>")
+            }
+            if (phrase[letter] === "i"){
+                document.write("Aparece la vocal i")
+                document.write("<br>")
+            }
+            if (phrase[letter] === "o"){
+                document.write("Aparece la vocal o")
+                document.write("<br>")
+            }
+            if (phrase[letter] === "u"){
+                document.write("Aparece la vocal u")
+                document.write("<br>")
+            }
+            else {
+                document.write("No aparece ninguna vocal")
+            }
+        }
+
+    </script>
+</body>
+</html>
