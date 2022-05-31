@@ -9,33 +9,26 @@
 <body>
     <h3>Escribe un programa que pida una frase y escriba cuántas de las letras que tiene son vocales</h3>
     <script>
-        //En proceso 
-        var phrase = prompt("Escriba una frase: ")
-        for(letter = 0; letter<phrase.length; letter++){
-            if (phrase[letter] === "a"){
-                count_a = count_a + 1;
-                document.write(phrase);
-            }    
-            if (phrase[letter] === "e"){
-                count_e = count_e + 1;
-            }
-            if (phrase[letter] === "i"){
-                count_i = count_i + 1;
-            }
-            if (phrase[letter] === "o"){
-                count_o = count_o + 1;
-            }
-            if (phrase[letter] === "u"){
-                count_u = count_u + 1;
-            }
-            else {
-                document.write("No aparece ninguna vocal");
-            }
+        const vowels = ["a", "e", "i", "o", "u"]
 
+        function countVowels() {
+            count = 0;
+        
+            for (letter of phrase) {
+                if (vowels.includes(letter)) {
+                    count++;
+                }
+            }
+        
+            return count
         }
-        var count = count_a + count_e + count_i + count_o + count_u
-        document.write("Las vocales aparecen " + count + "veces")
-
+        
+        
+        var phrase = prompt("Escriba una frase: ");
+        
+        var result = countVowels(phrase);
+        
+        document.write("Las vocales aparecen " + result + "veces");
     </script>
 </body>
 </html>

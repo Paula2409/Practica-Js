@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 12</title>
+</head>
+<body>
+    <h3>Escribe un programa que pida una frase y escriba cuántas veces aparecen cada una de las vocales</h3>
+    <script>
+        const vowels = ["a", "e", "i", "o", "u"]
+
+        function countVowels() {
+            count_a = 0;
+            count_e = 0;
+            count_i = 0;
+            count_o = 0;
+            count_u = 0;
+
+        
+            for (letter of phrase) {
+                if (vowels[0].includes(letter)) {
+                    count_a++;
+                }
+                if (vowels[1].includes(letter)) {
+                    count_e++;
+                }
+                if (vowels[2].includes(letter)) {
+                    count_i++;
+                }
+                if (vowels[3].includes(letter)) {
+                    count_o++;
+                }
+                if (vowels[4].includes(letter)) {
+                    count_u++;
+                }         
+            
+            }
+        
+            return count_a,count_e,count_i,count_o,count_u
+        }
+        
+        
+        var phrase = prompt("Escriba una frase: ");
+        
+        countVowels(phrase);
+        document.write("La vocal a: ", count_a + "<br>La vocal e: ", count_e + "<br>La vocal i: ", count_i + "<br>La vocal o: ", count_o + "<br>La vocal u: ", count_u)
+
+    </script>
+</body>
+</html>

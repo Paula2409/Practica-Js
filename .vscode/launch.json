@@ -1,0 +1,14 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "pwa-chrome",
+            "request": "launch",
+            "name": "Open actividad_practica_ej11.html",
+            "file": "/Users/paulaadgiromano/Desktop/Codo a Codo/Practica Js/actividad_practica_ej11.html"
+        }
+    ]
+}
