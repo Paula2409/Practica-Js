@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 16</title>
+</head>
+<body>
+    <h3>Escribir un programa que escriba en pantalla los divisores comunes de dos números dados</h3>
+    <script>
+        var n1 = Number(prompt("Escriba el primer numero: "))
+        var n2 = Number(prompt("Escriba el segundo numero: "))
+        list_1 = [];
+        list_2 = [];
+        
+        for (x=0; x<=n1; x++){
+
+            if (n1 % x === 0){
+                document.write("El primer numero es divisible por: ", x + "<br><br>");
+                list_1.push(x)
+            }
+        }
+        for (y=0; y<=n2; y++){
+
+            if (n2 % y === 0){
+                document.write("El segundo numero es divisible por: ", y + "<br><br>");
+                list_2.push(y)
+            }
+        }
+
+        for (i=0;i<list_1.length;i++){
+
+                for (j=0;j<list_1.length;j++){
+
+                    if (list_1(i)===list_2(j)){
+                        document.write("Los numeros son divisores de: ",i)
+                    }
+                }
+        }
+    </script>
+</body>
+</html>
