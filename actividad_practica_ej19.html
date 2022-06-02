@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 19</title>
+</head>
+<body>
+    <h3>Pide una nota (número). Muestra la calificación según la nota: 0-3: Muy deficiente 3-5: Insuficiente 5-6: Suficiente 6-7: Bien 7-9: Notable 9-10: Sobresaliente</h3>
+    <script>
+
+    var note = Number(prompt("Escriba la nota del alumno: "));    
+
+    switch(note){
+        case 0:
+        case 1:
+        case 2:
+        result = "Muy deficiente";
+        break;
+        case 3:
+        case 4:
+        result = "Insuficiente";
+        break;
+        case 5:
+        result = "Suficiente";
+        break;
+        case 6:
+        result = "Bien";
+        break; 
+        case 7:
+        case 8:
+        result = "Notable";
+        break;
+        case 9:  
+        case 10:
+        result = "Sobresaliente";
+        break;
+        default:
+        break;    
+    }
+    document.write("La calificación del alumno es: ",result)
+
+
+    </script>
+</body>
+</html>
