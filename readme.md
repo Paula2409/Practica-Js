@@ -26,38 +26,3 @@ números dados
 7-9: Notable
 9-10: Sobresaliente
 20. Realiza un script que pida cadenas de texto hasta que se pulse “cancelar”. Al salir con “cancelar” deben mostrarse todas las cadenas concatenadas con un guión.
-21. Realiza un script que pida números hasta que se pulse “cancelar”. Si no es un número deberá indicarse con un «alert» y seguir pidiendo. Al salir con “cancelar” deberá indicarse la suma total de los números introducidos.
-22. Realizar una página con un script que calcule el valor de la letra de un número de DNI (Documento Nacional de Identidad).
-El algoritmo para calcular la letra del dni es el siguiente :
-- El número debe ser entre 0 y 99999999
-- Debemos calcular el resto de la división entera entre el número y el número 23.
-- Según el resultado, de 0 a 22, le corresponderá una letra de las siguientes: (T, R, W, A, G, M, Y, F, P, D, X, B, N, J, Z, S, Q, V, H, L, C, K, E)
-- Si lo introducido no es un número deberá indicarse con un alert y volver a preguntar.
-- Deberá de repetirse el proceso hasta que el usuario pulse «cancelar».
-23. Realiza un script que escriba una pirámide del 1 al 30 de la siguiente forma:
-1
-22
-333 
-4444 
-55555 
-666666 
-.......
-24. Haz un script que escriba una pirámide inversa de los números del 1 al número que indique el usuario de la siguiente forma : (suponiendo que indica 6). 
-666666
-55555
-4444 
-333 
-22
-1
-25. Un script que escriba los números del 1 al 500, que indique cuáles son múltiplos de 4 y de 9 y que cada 5 líneas muestre una línea horizontal. Por ejemplo: 
-1
-2
-3
-4 (Múltiplo de 4)
-5
-————————————————————
-6
-7
-8 (Múltiplo de 4)
-9 (Múltiplo de 9)
-10
